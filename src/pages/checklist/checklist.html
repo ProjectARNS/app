@@ -1,0 +1,77 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Checklist</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-list>
+    
+    <ion-list-header>
+      Em caso de emergência, tente seguir o checklist.
+    </ion-list-header>
+    
+    <ion-item>
+      <ion-label>Afaste-se das árvores e terrenos abertos</ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Não permaneça em piscinas, rios e lagos</ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Evite ficar em morros e terrenos elevados</ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Se estiver dirigindo, permaneça no carro</ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Não permaneça perto de redes elétricas</ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Afaste-se de cercas de arame, varais metálicos e trilhos.</ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Procure ficar em casa até passar a tempestade</ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Evite banhos enquanto durar a tempestade;</ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Evite contato com qualquer objeto com estrutura metálica, inclusive torneiras;</ion-label>
+      <ion-checkbox></ion-checkbox>
+    </ion-item>
+
+  </ion-list>
+
+  <div class="splash-bg"></div>
+
+  <div class="splash-info">
+    <div class="splash-intro">
+      Veja todos os locais seguros perto de você, em caso de emergência.
+      <br><br><br>
+      <button ion-button color="danger" icon-end class="centerButton" round (click)="onClickVamosLa()">
+        Locais Seguros
+        <ion-icon name="md-pin"></ion-icon>
+      </button>
+    </div>
+  </div>
+
+</ion-content>

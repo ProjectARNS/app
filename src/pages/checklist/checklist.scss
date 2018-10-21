@@ -1,0 +1,29 @@
+page-checklist {
+
+	
+
+	.splash-bg {
+		position: relative;
+		background: url('../assets/imgs/fundoTexto.png') no-repeat transparent;
+		background-size: cover;
+		height: 45%;
+		z-index: 1;
+		background-repeat: repeat-x;
+		animation: animatedBackground 40s linear infinite;
+	}
+
+	.splash-info {
+		position: relative;
+		z-index: 2;
+		margin-top: -225px;
+		text-align: center;
+	}
+
+	.splash-intro {
+		font-size: 23px;
+		font-weight: bold;
+		//max-width: 80%;
+		margin: auto;
+		color: #fff
+	}
+}
