@@ -27,8 +27,8 @@ export class MenuPage {
 
   showAlert() {
     const alert = this.alertCtrl.create({
-      title: 'New Alert!',
-      subTitle: 'There is a storm coming!',
+      title: 'Novo alerta!',
+      subTitle: 'Uma tempestade se aproxima!',
       buttons: [
         {
           text: 'Close'
